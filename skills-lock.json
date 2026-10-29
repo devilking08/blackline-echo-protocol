@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "test-driven-development": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/test-driven-development/SKILL.md",
+      "computedHash": "3cfe4ebb6fa7288f668d87880d279c8e48f7a92b63415e296857060f5ce22e05"
+    },
+    "threejs-fundamentals": {
+      "source": "cloudai-x/threejs-skills",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-fundamentals/SKILL.md",
+      "computedHash": "c0293a5eaf5168cdbeb1e9bfc5d5b7aa24396f604a8695b26a72d833c2352108"
+    },
+    "threejs-interaction": {
+      "source": "cloudai-x/threejs-skills",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-interaction/SKILL.md",
+      "computedHash": "3a9d60c473947217f2bd9fbdfb12084e55ae2f240aa6fc718f61c55a73d6fb34"
+    },
+    "threejs-shaders": {
+      "source": "cloudai-x/threejs-skills",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-shaders/SKILL.md",
+      "computedHash": "af0a4cdfc80390b30a898bb5a3fe30e4f61b304776a9aebbdb7451b0fc1c2c0f"
+    }
+  }
+}

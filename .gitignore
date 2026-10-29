@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+test-results/
+playwright-report/
+*.log
+.DS_Store
+
+.agents/
+artifacts/
+capture-release.mjs
+scaffold.mjs
+finalize.mjs
+inspect.mjs
+diagnose.mjs

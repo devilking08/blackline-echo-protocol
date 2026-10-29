@@ -1,0 +1,33 @@
+{
+  "name": "blackline-echo-protocol",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An original cyberpunk first-person browser game.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "check": "npm test && npm run build",
+    "format": "prettier --write src tests e2e *.ts *.json *.html .github/workflows/*.yml README.md THIRD_PARTY_NOTICES.md docs/*.md",
+    "format:check": "prettier --check src tests e2e *.ts *.json *.html .github/workflows/*.yml README.md THIRD_PARTY_NOTICES.md docs/*.md"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "1.64.1",
+    "@types/three": "0.186.0",
+    "prettier": "^3.9.10",
+    "typescript": "7.0.2",
+    "vite": "8.3.5",
+    "vitest": "5.0.5"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
